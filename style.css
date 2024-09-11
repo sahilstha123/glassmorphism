@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #2a2a2a;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roboto-mono- {
+  font-family: "Roboto Mono", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.c1,
+.c2,
+.c3,.c4 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.c1 {
+  background: linear-gradient(rgb(255, 115, 0), yellow);
+  top: 40px;
+  left: 40px;
+}
+.c2 {
+  background: linear-gradient(yellow, green);
+  bottom: 40px;
+  left: 40px;
+}
+.c3 {
+  background: linear-gradient(red, pink);
+  bottom: 40px;
+  right: 80px;
+}
+.stack {
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(10px);
+}
+.cc {
+  background-color: rgba(196, 196, 196, 0.174);
+  position: absolute;
+  border: 1px solid grey;
+  padding: 1rem;
+  width: 350px;
+  height: 200px;
+  border-radius: 20px;
+
+  box-shadow: 0px 4px 30px rgba(128, 128, 128, 0.338);
+  backdrop-filter: blur(10px);
+}
+.c4 {
+    background: linear-gradient(red, purple);
+    top: calc(50% - 160px);
+    right: calc(50% - 200px);
+  }
+.title {
+  font-size: 1.25rem;
+}
+.num {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 5rem;
+}
+.details {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.details > div > div {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.details:last-child {
+  font-size: 2rem !important;
+}
